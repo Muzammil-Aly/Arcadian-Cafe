@@ -1,0 +1,130 @@
+.cart-section {
+  display: flex;
+  padding: 30px 280px 0px;
+  gap: 20px;
+  background-color: black;
+  color: white;
+}
+
+.cart-images img {
+  min-width: 600px;
+  max-width: 100%; /* Responsive image scaling */
+}
+
+.item-heading {
+  font-size: 2em;
+  font-family: "Cinzel", Sans-serif;
+}
+
+.Price-range {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+.item-description {
+  margin: 5px 0 10px;
+}
+
+.meal-type {
+  font-size: 0.9em;
+  font-weight: 800;
+  margin: 20px 0;
+}
+.meal-type-name {
+  font-size: 0.7em;
+}
+.boxes-container {
+  display: flex;
+  gap: 5px;
+}
+
+.combine {
+  width: 60px;
+  height: 40px;
+  font-size: 0.8em;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #272727;
+  color: #fff;
+
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+.button:hover {
+  background-color: #8054b3;
+  color: #fff;
+}
+
+.addtobag-content {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.quantity-addtocart {
+  width: 10%;
+}
+.addtobag-content-input {
+  padding: 1px;
+  background-color: #fff !important;
+
+  margin-top: 20px;
+}
+.addtobag-content-input {
+  background-color: #272727;
+  color: black;
+  margin-right: 30px;
+}
+.cart-quantity {
+  width: 60px;
+  height: 40px;
+  font-size: 1em;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+.cart-quantity:focus {
+  background-color: #fff;
+  border: 2px solid black;
+  justify-content: center;
+}
+.image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.modal-image {
+  max-width: 90%;
+  max-height: 90%;
+}

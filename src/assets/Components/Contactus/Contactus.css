@@ -1,0 +1,82 @@
+.contactus-main {
+  color: #fff;
+  background-color: black;
+  font-family: "Cinzel", Sans-serif;
+}
+.contact-us-heading {
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+.contact-us-main-heading {
+  display: flex;
+  justify-content: center;
+}
+.reservespot-main {
+  overflow: auto;
+  width: 100vw;
+}
+
+.reservespot-main-sub-container {
+  height: 440px;
+  display: flex;
+
+  width: 100%;
+  padding: 0 200px;
+  height: 100%;
+}
+
+.reservespot-sub-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 1px solid #fff;
+}
+
+.map-component {
+  flex: 1;
+  min-width: 350px;
+  height: 100%;
+}
+
+.booking-table {
+  flex: 1;
+  min-width: 350px;
+  height: 100%;
+}
+.contact-item-heading-one {
+  font-size: 1.2em;
+}
+.contact-item-heading-two {
+  font-size: 1.2em;
+}
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  font-family: "Jost", sans-serif;
+  margin: 50px 30px;
+}
+.contact-icon {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.branches-name {
+  font-size: 15px;
+  font-weight: 600;
+}
+.branches-para {
+  font-size: 15px;
+  text-transform: lowercase;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.para {
+  margin-top: 10px;
+}
